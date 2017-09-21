@@ -24,7 +24,7 @@
   - 드로잉 툴()에 대한 이해
   - GitHub/GitHub Desktop에 대한 이해
 
-  http://www.makeuseof.com/tag/how-to-make-a-simple-arduino-alarm-system/
+  [참고사이트](http://www.makeuseof.com/tag/how-to-make-a-simple-arduino-alarm-system/)
 
 ## 프로젝트 목표 기능
 
