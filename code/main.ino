@@ -28,38 +28,37 @@ void loop()
   if (distance < 30)
   {
     for (int timeIndex = 0; timeIndex < timeThreshHold; timeIndex += 100) {
-      tone(buzzer, 1000, timeIndex); // 함수는 특정 음계의 소리를 스피커로 출력시킬 수 있다.
+      tone(buzzer, 1000, timeIndex);
       delay(timeIndex*2);
     }
   }
   else if (distance < 50 )
   {
     for (int timeIndex = 0; timeIndex < timeThreshHold; timeIndex += 200) {
-      tone(buzzer, 900, timeIndex); // 함수는 특정 음계의 소리를 스피커로 출력시킬 수 있다.
+      tone(buzzer, 900, timeIndex);
       delay(timeIndex*2);
     }
   }
   else if (distance < 70 )
   {
     for (int timeIndex = 0; timeIndex < timeThreshHold; timeIndex += 300) {
-      tone(buzzer, 800, timeIndex); // 함수는 특정 음계의 소리를 스피커로 출력시킬 수 있다.
+      tone(buzzer, 800, timeIndex); 
       delay(timeIndex*2);
     }
   }
   else if (distance < 90 )
   {
     for (int timeIndex = 0; timeIndex < timeThreshHold; timeIndex += 400) {
-      tone(buzzer, 700, timeIndex); // 함수는 특정 음계의 소리를 스피커로 출력시킬 수 있다.
+      tone(buzzer, 700, timeIndex);
       delay(timeIndex*2);
     }
   }
   else if (distance < 120 )
   {
     for (int timeIndex = 0; timeIndex < timeThreshHold; timeIndex += 500) {
-      tone(buzzer, 600, timeIndex); // 함수는 특정 음계의 소리를 스피커로 출력시킬 수 있다.
+      tone(buzzer, 600, timeIndex); 
       delay(timeIndex*2);
     }
   }
   delay(500);
 }
-
